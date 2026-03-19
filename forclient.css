@@ -9,7 +9,16 @@
 }
 
 body{
-    background-color: #4b6039;
     color: #eea219;
     font-family: jones1;
+    background-image: url(topbckgrnd.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 1500px 1450px;
+    background-position: center;
+}
+
+h1{
+    font-family: jones2;
+    text-align: center;
 }
