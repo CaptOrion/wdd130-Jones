@@ -1,4 +1,15 @@
+@font-face{
+    font-family: jones1;
+    src: url(bookman_Regular-font.otf)
+}
+
+@font-face{
+    font-family: jones2;
+    src: url(bookman_Bolditalic-font.otf)
+}
+
 body{
     background-color: #4b6039;
-    color: #eea219
+    color: #eea219;
+    font-family: jones1;
 }
