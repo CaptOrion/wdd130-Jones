@@ -21,3 +21,10 @@ body{
 h1{
     font-family: jones2;
 }
+
+.photos{
+    align-self: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
