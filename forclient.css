@@ -18,11 +18,32 @@ body{
     background-position: center;
 }
 
+nav{
+list-style-type: none;
+margin: 10px;
+padding: 10px;
+background-color: #4b6039;
+display: flex;
+justify-content: center;
+}
+
+nav a{
+    width: 30%;
+    border-color: #e2bd7b;
+    border-style: solid;
+    text-align: center;
+}
+
+#wrapper{
+    border-style: solid;
+    border-color: #946637;
+}
+
 h1{
     font-family: jones2;
 }
 
-.photos{
+#photos{
     align-self: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
