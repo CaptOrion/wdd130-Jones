@@ -12,9 +12,9 @@ body{
     color: #eea219;
     font-family: jones1;
     background-image: url(topbckgrnd.png);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 1500px 1450px;
+    
     background-position: center;
 }
 
@@ -39,8 +39,7 @@ nav a{
     border-style: solid;
     border-color: #946637;
     background-color: #4b6039;
-    width: 1200px;
-    height: 970px;
+    width: 2500px;
     margin: auto;
     padding: 50px
 }
@@ -64,4 +63,12 @@ h1{
 
 header{
     text-align: center;
+}
+
+.square {
+    width: 100%;
+}
+
+.ppl{
+    width: 100%;
 }
