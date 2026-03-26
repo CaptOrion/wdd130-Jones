@@ -25,6 +25,7 @@ padding: 10px;
 background-color: #eaa219;
 display: flex;
 justify-content: center;
+clear: both;
 }
 
 nav a{
@@ -46,7 +47,7 @@ nav a{
 
 h1{
     font-family: jones2;
-    
+    margin: auto;
 }
 
 #photos{
@@ -54,4 +55,13 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    background-color: #eaa219;
+}
+
+#logo{
+    float: left;
+}
+
+header{
+    text-align: center;
 }
